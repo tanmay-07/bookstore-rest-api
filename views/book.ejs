@@ -1,0 +1,11 @@
+<% include partials/header %>
+<div class="container text-center">
+  <img src="<%= book.imageurl%>" class="img-responsive" alt="">
+  <h1><%= book.title %></h1>
+  <h3><strong>Author:</strong> <%=book.author %></h3>
+  <h3><strong>Price:</strong> <%=book.price %></h3>
+  <h3><strong>Genre:</strong> <%=book.genre %></h3>
+
+</div>
+
+<% include partials/footer %>
